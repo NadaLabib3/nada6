@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <!-- Login -->
+    <h1>Login_form</h1>
+    <div class="div1">
+       
+        <label >UserName:</label>
+        <input type="text"  id="username_login" username>
+        <br><br>
+         <Label >Password:</Label>
+         <input type="text" id="pass_login" pass>
+         <br><br>
+        <a href=""> <button>Forget Password</button></a><br><br>
+           <label id="acount"> Dont Have on account</label>
+        <a href=""> <button onclick="signin()"  >log in</button></a>
+       
+    </div>
+    <!-- sign_Up -->
+    <div class="div2">
+        <h1>Sign up</h1>  
+        <label >user name</label>
+        <input type="text" id="username_signup">
+        <br><br>
+        <label >password</label>
+        <input id="passworddd" type="password">
+        <br><br>
+        <label >Age</label>
+        <input type="text" id="age">
+        <br> <br>
+        <label >Female</label>
+        <input type="radio" name="gender">
+        <label >male</label >
+        <input type="radio" name="gender">
+        <br><br>
+        <label for="">phone</label>
+        <input id="phone" type="number">
+        <br> <br>
+        <br> <br>
+        <input type="button " onclick="profile()" value="Submit"> 
+    </div>
+    <form ><b id="user_name"></b>
+        <b id="pass1"></b>
+        <b id="age1"></b>
+        <b id="phone_number"></b>
+      </form>
+    <!-- password -->
+    <div class="div3">
+        <h1>Forget Password Form</h1>
+        <label id="username">UserName:</label>
+        <input type="text"  id="Name" username>
+        <br><br>
+         <Label id="pass">New Password:</Label>
+         <input type="text" id="passw" pass>
+         <br><br>
+        
+         <button onclick="update()">update</button> 
+    </div>
+</body>
+<script src="login.js"></script>
+</html>

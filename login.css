@@ -1,0 +1,38 @@
+
+  .div1{
+    background-color: blueviolet;
+     border: 40px;
+     font-family: sans-serif;
+     justify-content: center;
+     width: 40%;
+     height: 30%;
+     text-align: center;
+     
+  }
+  .div2
+  {
+   border: 40px; 
+   background-color: burlywood;
+   padding: 20px;
+   border-radius: 10vb;
+   margin-bottom: 30%;
+   margin-top: 20px;
+   text-align: center;
+  }
+  .div3
+  {
+    border: 20px; 
+   background-color: rgb(116, 71, 11);
+   padding: 15px;
+   border-radius: 10vb;
+   margin-bottom: 30%;
+   margin-top: 10px;
+   margin-left: 20px;
+text-align: center;
+  }
+ 
+   
+  
+  
+   
+    

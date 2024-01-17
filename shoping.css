@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  nav {
+    background-color: #f3e7e7;
+    padding: 10px;
+    
+  }
+  ul
+  {
+    display: flex;
+    list-style-type:none;
+    justify-content: center;
+  }
+  li
+  {
+    margin-left: 100px;
+  }
+  div{
+    overflow: hidden;
+  }
+  .slider{
+    justify-content: center;
+    text-decoration: antiquewhite;
+    
+}
+.sliderWrapper {
+
+  width: 50vw;
+  transition: all 1.5s ease-in-out;
+  width: 550vb;
+  overflow: hidden;
+  display: flex;
+
+}
+.sliderItem{
+  width: 500vw;
+  margin-left: 1000px;
+}
+.slider{
+    justify-content: center;
+    text-decoration: antiquewhite;
+    
+}
+.sliderWrapper1{
+    width: 50px;
+    transition: all 1.5s ease-in-out;
+    overflow: hidden;
+    display: flex;
+}

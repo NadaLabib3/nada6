@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  nav {
+    background-color: #f3e7e7;
+    padding: 10px;
+    
+  }
+  ul
+  {
+    display: flex;
+    list-style-type:none;
+    justify-content: center;
+  }
+  li
+  {
+    margin-left: 100px;
+  }
+  div{
+    overflow: hidden;
+
+  }
+  .slider{
+      justify-content: center;
+      display: flex;
+      text-decoration: antiquewhite;
+      overflow: hidden;
+      width: 1000px;
+      height: 550px;
+      
+  }
+  .sliderWrapper {
+
+    width: 50vw;
+    transition: all 1.5s ease-in-out;
+    overflow: hidden;
+  
+  }
+  .sliderItem{
+    width: 50vw;
+    
+
+  }
+  .sliderImgs{
+    width: 5vw;
+   
+  }
+
+  
+  .footer{
+    padding: 10%;
+     background-color: rgb(97, 54, 54);
+     width: 100%;
+  }
+ 

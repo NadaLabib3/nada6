@@ -1,0 +1,60 @@
+
+IT@PC69 MINGW64 ~/Desktop/Nada_labib(0522076)(W1) (master)
+$ git init
+Initialized empty Git repository in C:/Users/IT/Desktop/Nada_labib(0522076)(W1)/.git/
+
+IT@PC69 MINGW64 ~/Desktop/Nada_labib(0522076)(W1) (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        TestCase_Task4_Day1 (1).docx
+        home.css
+        home.html
+        login.css
+        login.html
+        login.js
+        review.html
+        review.js
+        shooping.html
+        shoping.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+IT@PC69 MINGW64 ~/Desktop/Nada_labib(0522076)(W1) (master)
+$ git commit -m"add"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        TestCase_Task4_Day1 (1).docx
+        home.css
+        home.html
+        login.css
+        login.html
+        login.js
+        review.html
+        review.js
+        shooping.html
+        shoping.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+IT@PC69 MINGW64 ~/Desktop/Nada_labib(0522076)(W1) (master)
+$ git remote add origin https://github.com/NadaLabib3/nadas.git
+
+IT@PC69 MINGW64 ~/Desktop/Nada_labib(0522076)(W1) (master)
+$ git branch -M master
+
+IT@PC69 MINGW64 ~/Desktop/Nada_labib(0522076)(W1) (master)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/NadaLabib3/nadas.git'
+
+IT@PC69 MINGW64 ~/Desktop/Nada_labib(0522076)(W1) (master)
+$ ^C
